@@ -2,7 +2,7 @@ language: cpp
 compiler:
 - gcc
 before_install:
-- echo "Script step"
+- echo "Before Install step"
 - env | grep TRAVIS
 
 install:
