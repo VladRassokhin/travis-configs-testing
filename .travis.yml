@@ -1,0 +1,14 @@
+language: cpp
+compiler:
+- gcc
+before_install:
+- echo "Script step"
+- env | grep TRAVIS
+
+install:
+- echo "Install step"
+- env | grep TRAVIS
+
+script:
+- echo "Script step"
+- env | grep TRAVIS
