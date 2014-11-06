@@ -1,10 +1,10 @@
-language: cpp
-compiler:
-- gcc
+language: objective-cpp
+os:
+- osx
 before_install:
 - echo "Script step"
 - env | grep TRAVIS
-
+- brew list
 install:
 - echo "Install step"
 - env | grep TRAVIS
