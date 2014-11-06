@@ -1,4 +1,4 @@
-language: objective-cpp
+language: objective-c
 os:
 - osx
 before_install:
