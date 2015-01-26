@@ -1,6 +1,10 @@
-language: cpp
-compiler:
-- gcc
+language: android
+android:
+  components:
+    - build-tools-19.1.0
+    - android-19
+    - platform-tools
+
 before_install:
 - echo "Before Install step"
 - env | grep TRAVIS
